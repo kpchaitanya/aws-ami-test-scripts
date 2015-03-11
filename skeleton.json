@@ -1,0 +1,12 @@
+{
+    "ImageId": "forgot the AMI id?", 
+    "MinCount": 1, 
+    "MaxCount": 1, 
+    "KeyName": "vsupalov", 
+    "SecurityGroupIds": [
+        "sg-xxx",
+        "sg-xxx"
+    ], 
+    "InstanceType": "t2.micro", 
+    "SubnetId": "subnet-xxx"
+}
