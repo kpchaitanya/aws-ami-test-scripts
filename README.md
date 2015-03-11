@@ -2,6 +2,17 @@
 
 A set of very simple scripts, which can be used to first start an AWS EC2 instance based on a specific AMI, then connect to it and clean it up afterwards.
 
+## Dependencies
+
+The [AWS CLI](https://github.com/aws/aws-cli) is required to be [installed](http://docs.aws.amazon.com/cli/latest/userguide/installing.html) and configured.
+
+```
+$ sudo pip install awscli
+$ aws configure
+```
+
+Proper IAM users with sufficient permissions and some preparation on AWS (VPC, subnets, an AMI to test) are assumed.
+
 ## Before Usage
 
 You need to insert meaningful values for some variables, otherwise the scripts will not work.
